@@ -1,1 +1,1 @@
-# angular2-login
+# angular2-playground
