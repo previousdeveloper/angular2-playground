@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let photo of photos | slice:0:10">
+        <img [src]="photo.thumbnailUrl">
+    </li>
+</ul>
