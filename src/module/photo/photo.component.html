@@ -1,5 +1,9 @@
-<ul>
-    <li *ngFor="let photo of photos | slice:0:10">
-        <img [src]="photo.thumbnailUrl">
-    </li>
-</ul>
+<button class="search-results" (click)="loadMorePhotos()">
+
+    <ul>
+        <li *ngFor="let photo of photos | slice:0:initalValue">
+            {{photo?.title | removeSpace}}
+        </li>
+    </ul>
+
+</button>

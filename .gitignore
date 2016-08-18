@@ -37,6 +37,7 @@ build/Release
 
 /tools/**/*.js
 /src/**/*.js
+*.map
 dist
 dev
 docs
